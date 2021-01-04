@@ -1,0 +1,11 @@
+# Uncomment the next line to define a global platform for your project
+ platform :ios, '11.0'
+
+target 'Tree' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+pod 'HandyJSON', '~> 5.0.0'
+pod 'SnapKit'
+  # Pods for Tree
+
+end
